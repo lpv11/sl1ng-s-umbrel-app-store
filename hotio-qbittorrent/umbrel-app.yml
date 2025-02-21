@@ -7,23 +7,23 @@ category: Development
 version: "5.0.4"
 port: 8080
 description: >-
-  Add your app's description here.
+  Add your app's description here. Sure thing bro.
 
 
-  You can also add newlines!
+  You can also add newlines! Ah, yes, why not.
 
 developer: Hotio
 website: hotio.dev
 submitter: lpv11
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+submission: https://github.com/lpv11/hotio-qbit/tree/master
+repo: https://github.com/lpv11/hotio-qbit/tree/master
+support: https://github.com/lpv11/hotio-qbit/tree/master/issues
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://www.qbittorrent.org/img/screenshots/linux/1.webp
+  - https://www.qbittorrent.org/img/screenshots/linux/1.webp
+  - https://www.qbittorrent.org/img/screenshots/linux/1.webp
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
+  Whatever.
 dependencies: []
 path: ""
 defaultUsername: ""
