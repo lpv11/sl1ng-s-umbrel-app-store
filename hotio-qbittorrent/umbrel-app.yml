@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: hotio-qbit
 name: qBittorrent
-tagline: Hotio mf's!
+tagline: qBittorrent with Wireguard
 icon: https://getumbrel.github.io/umbrel-apps-gallery/qbittorrent/icon.svg
 category: Development
 version: "5.0.4"
@@ -12,16 +12,17 @@ description: >-
 
   You can also add newlines! Ah, yes, why not.
 
-developer: Hotio
-website: hotio.dev
+developer: lpv
+website: lpv
 submitter: lpv11
 submission: https://github.com/lpv11/hotio-qbit/tree/master
 repo: https://github.com/lpv11/hotio-qbit/tree/master
 support: https://github.com/lpv11/hotio-qbit/tree/master/issues
 gallery:
   - https://www.qbittorrent.org/img/screenshots/linux/1.webp
-  - https://www.qbittorrent.org/img/screenshots/linux/1.webp
-  - https://www.qbittorrent.org/img/screenshots/linux/1.webp
+  - https://www.qbittorrent.org/img/screenshots/linux/2.webp
+  - https://www.qbittorrent.org/img/screenshots/linux/3.webp
+  - https://www.qbittorrent.org/img/screenshots/linux/4.webp
 releaseNotes: >-
   Whatever.
 dependencies: []
