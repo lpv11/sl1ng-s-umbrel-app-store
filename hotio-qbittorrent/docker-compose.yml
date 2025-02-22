@@ -24,10 +24,6 @@ services:
       - PRIVOXY_ENABLED=false
       - UNBOUND_ENABLED=false #
     volumes:
-#      - /home/umbrel/docker/qbittorrent:/config
-#      - /data/torrents:/data/torrents
-#      - /home/umbrel/umbrel/app-data/:config
-#      - /home/umbrel/umbrel/home/Downloads:downloads
       - /home/umbrel/umbrel/app-data/qbittorrent:/config
       - /home/umbrel/umbrel//home/Downloads:/data
     hostname: container-name.internal #
