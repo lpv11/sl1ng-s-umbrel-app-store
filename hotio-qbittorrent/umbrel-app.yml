@@ -7,10 +7,10 @@ category: Development
 version: "5.0.4"
 port: 8080
 description: >-
-  Add your app's description here. Sure thing bro.
+  Add your app's description here.
 
 
-  You can also add newlines! Ah, yes, why not.
+  You can also add newlines!
 
 developer: hotio
 website: hotio.dev
