@@ -8,7 +8,6 @@ version: "5.0.4"
 port: 8080
 description: >-
   Hotio's qBittorrent/Wireguard bundle.
-
 developer: hotio
 website: hotio.dev
 submitter: lpv11
