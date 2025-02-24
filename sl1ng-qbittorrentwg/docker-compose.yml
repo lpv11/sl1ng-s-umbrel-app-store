@@ -18,7 +18,7 @@ services:
       - VPN_CONF=wg0 # READ THIS
       - VPN_PROVIDER=generic #
       - VPN_LAN_NETWORK=192.168.1.0/24 #
-      - VPN_LAN_LEAK_ENABLED=false
+      - VPN_LAN_LEAK_ENABLED=true
       - VPN_EXPOSE_PORTS_ON_LAN #
       - VPN_AUTO_PORT_FORWARD=false #
       - VPN_AUTO_PORT_FORWARD_TO_PORTS= #
@@ -28,7 +28,7 @@ services:
       - PRIVOXY_ENABLED=false
       - UNBOUND_ENABLED=false #
     volumes:
-      - /home/umbrel/umbrel/app-data/hotio-qbittorrent/data/config:/config
+      - /home/umbrel/umbrel/app-data/sl1ng-qbittorrentwg/data/config:/config
       - /home/umbrel/umbrel/home/Downloads:/downloads
     cap_add:
       - NET_ADMIN
