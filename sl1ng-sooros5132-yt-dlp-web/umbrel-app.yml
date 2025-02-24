@@ -2,7 +2,7 @@ manifestVersion: 1
 id: sl1ng-sooros5132-yt-dlp-web
 name: yt-dlp WebUI
 tagline: WebUI for yt-dlp by sooros5132
-icon: https://svgur.com/i/mvA.svg
+icon: https://cdn.imgchest.com/files/4apc5lnage4.png
 category: Development
 version: "Unknown"
 port: 3000
