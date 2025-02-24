@@ -4,7 +4,7 @@ name: yt-dlp-web
 tagline: WebUI for yt-dlp by sooros5132
 icon: https://cdn.imgchest.com/files/4gdcx98box4.png
 category: Development
-version: "Unknown"
+version: "0.3.2"
 port: 3000
 description: >-
   sooros5132's yt-dlp webui
