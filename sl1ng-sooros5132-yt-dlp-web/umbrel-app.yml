@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: sl1ng-sooros5132-yt-dlp-web
+name: yt-dlp WebUI
+tagline: WebUI for yt-dlp
+icon: https://svgur.com/i/mvA.svg
+category: Development
+version: "Unknown"
+port: 3000
+description: >-
+  sooros5132's yt-dlp webui
+developer: sooros5132
+website: https://github.com/sooros5132/yt-dlp-web
+submitter: lpv11
+submission: https://github.com/lpv11/sl1ng-s-umbrel-app-store
+repo: https://github.com/lpv11/sl1ng-s-umbrel-app-store
+support: https://github.com/lpv11/sl1ng-s-umbrel-app-store/issues
+gallery:
+
+releaseNotes: >-
+  Glorious release.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  yt-dlp-web:
+    image: sooros5132/yt-dlp-web
+    container_name: yt-dlp-web
+    user: 1000:1000 # User Id, Group Id Setting
+    # environment:
+    #   If you need to protect the site, set AUTH_SECRET, CREDENTIAL_USERNAME, CREDENTIAL_PASSWORD.
+    #   ex)
+    #   AUTH_SECRET: "Random_string,_40+_characters_recommended"
+    #   CREDENTIAL_USERNAME: "username"
+    #   CREDENTIAL_PASSWORD: "password"
+    volumes:
+      - /home/umbrel/umbrel/home/Downloads:/downloads # Downloads folder
+      - /home/umbrel/umbrel/home/Downloads/cache:/cache         # Cache folder
+    ports:
+      - 3000:3000 # Web Page Port Mapping
+    restart: unless-stopped
