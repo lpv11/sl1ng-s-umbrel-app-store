@@ -12,8 +12,8 @@ services:
     #   CREDENTIAL_USERNAME: "username"
     #   CREDENTIAL_PASSWORD: "password"
     volumes:
-      - /home/umbrel/umbrel/home/Downloads:/downloads # Downloads folder
-      - /home/umbrel/umbrel/home/Downloads/cache:/cache         # Cache folder
+      - /home/umbrel/umbrel/home/Downloads/yt-dlp:/downloads    # Downloads folder
+      - /home/umbrel/umbrel/home/Downloads/yt-dlp/cache:/cache         # Cache folder
     ports:
       - 3000:3000 # Web Page Port Mapping
     restart: unless-stopped
