@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: sl1ng-qbittorrentwg
 name: qBittorrentWG
-tagline: qBittorrent with Wireguard
+tagline: qBittorrent with Wireguard by hotio
 icon: https://getumbrel.github.io/umbrel-apps-gallery/qbittorrent/icon.svg
 category: Development
 version: "5.0.4"
