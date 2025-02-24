@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: sl1ng-marcobaobao-yt-dlp-webui
-name: yt-dlp WebUI by marcobaobao
-tagline: WebUI for yt-dlp
+name: yt-dlp WebUI
+tagline: WebUI for yt-dlp by marcobaobao
 icon: https://svgur.com/i/mvA.svg
 category: Development
 version: "Unknown"
