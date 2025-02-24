@@ -1,15 +1,19 @@
+version: '3.7'
+
 services:
-  qbittorrent:
-    container_name: qbittorrent
-    image: ghcr.io/hotio/qbittorrent
-    ports:
-      - "8080:8080"
+  app_proxy:
+    environment:
+      APP_HOST: hotio-qbittorrent_app_1
+      APP_PORT: 8880
+
+  app:
+    image: ghcr.io/hotio/qbittorrent:release-5.0.4@sha256:d97080a8a978d7705297dc44bcd6c599b3b47631fec8dcfc0cb7039279d05b02
     environment:
       - PUID=1000
       - PGID=1000
       - UMASK=002
       - TZ=Europe/Athens
-      - WEBUI_PORTS=8080/tcp,8080/udp
+      - WEBUI_PORTS=8880/tcp,8880/udp
       - VPN_ENABLED=true #
       - VPN_CONF=wg0 # READ THIS
       - VPN_PROVIDER=generic #
@@ -26,7 +30,6 @@ services:
     volumes:
       - /home/umbrel/umbrel/app-data/qbittorrent/data/config:/config
       - /home/umbrel/umbrel/home/Downloads:/downloads
-    hostname: container-name.internal #
     cap_add:
       - NET_ADMIN
     sysctls:
@@ -34,4 +37,4 @@ services:
       - net.ipv6.conf.all.disable_ipv6=1 #
     devices:
       - /dev/net/tun:/dev/net/tun # OPTIONAL, READ THIS
-    restart: always
+    restart: on-failure
