@@ -1,10 +1,10 @@
 manifestVersion: 1
 id: sl1ng-prowlarrWG
-name: prolarrWG
-tagline: qBittorrent with Wireguard by hotio
+name: prowlarrWG
+tagline: prowlarr with Wireguard by hotio
 icon: https://cdn.imgchest.com/files/y2pckarmeb7.png
 category: Development
-version: "Unknown"
+version: "qBit version:5.0.4"
 port: 9696
 description: >-
   Hotio's qBittorrent/Wireguard bundle.
