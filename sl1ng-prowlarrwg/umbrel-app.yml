@@ -2,7 +2,7 @@ manifestVersion: 1
 id: sl1ng-prowlarrWG
 name: prolarrWG
 tagline: qBittorrent with Wireguard by hotio
-icon: https://getumbrel.github.io/umbrel-apps-gallery/qbittorrent/icon.svg
+icon: https://cdn.imgchest.com/files/y2pckarmeb7.png
 category: Development
 version: "Unknown"
 port: 9696
