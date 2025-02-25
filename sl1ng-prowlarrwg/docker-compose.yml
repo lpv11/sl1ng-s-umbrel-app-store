@@ -1,10 +1,10 @@
 services:
-  radarr:
-    container_name: radarr
+  prowlarr:
+    container_name: prowlarr_app_proxy_1
     hostname: container-name.internal #
-    image: ghcr.io/hotio/radarr
+    image: ghcr.io/hotio/prowlarr
     ports:
-      - "7878:7878"
+      - "9696:9696"
     environment:
       - PUID=1000
       - PGID=1000
@@ -23,6 +23,8 @@ services:
       - VPN_HEALTHCHECK_ENABLED=false
       - PRIVOXY_ENABLED=false
       - UNBOUND_ENABLED=false #
+    volumes:
+      - /home/umbrel/umbrel/app-data/sl1ng-prowlarr/data/config:/config
     cap_add:
       - NET_ADMIN
     sysctls:
@@ -30,6 +32,3 @@ services:
       - net.ipv6.conf.all.disable_ipv6=1 #
     devices:
       - /dev/net/tun:/dev/net/tun # OPTIONAL, READ THIS
-    volumes:
-      - /home/umbrel/umbrel/app-data/radarr/data/config:/config
-      - /home/umbrel/umbrel/home/Downloads:/downloads

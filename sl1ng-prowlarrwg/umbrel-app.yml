@@ -1,19 +1,19 @@
 manifestVersion: 1
-id: sl1ng-radarwg
-name: radarrWG
-tagline: Radarr/Wireguard bundle by hotio
-icon: https://github.com/Radarr/radarr.github.io/blob/master/img/favicon.ico
+id: sl1ng-prowlarrWG
+name: prolarrWG
+tagline: qBittorrent with Wireguard by hotio
+icon: https://getumbrel.github.io/umbrel-apps-gallery/qbittorrent/icon.svg
 category: Development
 version: "Unknown"
-port: 7878
+port: 9696
 description: >-
-  Radarr with Wireguard integration by hotio
+  Hotio's qBittorrent/Wireguard bundle.
 developer: hotio
-website: https://hotio.dev/containers/radarr/
+website: hotio.dev
 submitter: lpv11
 submission: https://github.com/lpv11/sl1ng-s-umbrel-app-store
 repo: https://github.com/lpv11/sl1ng-s-umbrel-app-store
-support: https://github.com/lpv11/sl1ng-s-umbrel-app-store/issues
+support: https://github.com/lpv11/sl1ng-s-umbrel-app-store/tree/master/issues
 gallery:
 
 releaseNotes: >-
