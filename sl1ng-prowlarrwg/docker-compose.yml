@@ -24,7 +24,8 @@ services:
       - PRIVOXY_ENABLED=false
       - UNBOUND_ENABLED=false #
     volumes:
-      - /home/umbrel/umbrel/app-data/sl1ng-prowlarr/data/config:/config
+      - ${APP_DATA_DIR}/data/config:/config
+      - ${UMBREL_ROOT}/home/Downloads:/downloads
     cap_add:
       - NET_ADMIN
     sysctls:
