@@ -4,7 +4,7 @@ name: qBittorrentWG
 tagline: qBittorrent with Wireguard by hotio
 icon: https://getumbrel.github.io/umbrel-apps-gallery/qbittorrent/icon.svg
 category: Development
-version: "5.0.4"
+version: "Unknown"
 port: 8880
 description: >-
   Hotio's qBittorrent/Wireguard bundle.
