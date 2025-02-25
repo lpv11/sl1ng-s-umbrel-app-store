@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: sl1ng-radarwg
+name: radarrWG
+tagline: Radarr/Wireguard bundle by hotio
+icon: https://github.com/Radarr/radarr.github.io/blob/master/img/favicon.ico
+category: Development
+version: "Unknown"
+port: 7878
+description: >-
+  Radarr with Wireguard integration by hotio
+developer: hotio
+website: https://hotio.dev/containers/radarr/
+submitter: lpv11
+submission: https://github.com/lpv11/sl1ng-s-umbrel-app-store
+repo: https://github.com/lpv11/sl1ng-s-umbrel-app-store
+support: https://github.com/lpv11/sl1ng-s-umbrel-app-store/issues
+gallery:
+
+releaseNotes: >-
+  Glorious release.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
