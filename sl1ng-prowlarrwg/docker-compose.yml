@@ -1,7 +1,6 @@
 services:
   prowlarr:
     container_name: prowlarr_app_proxy_1
-    hostname: container-name.internal #
     image: ghcr.io/hotio/prowlarr
     ports:
       - "9696:9696"
