@@ -3,7 +3,7 @@ version: '3.7'
 services:
   app_proxy:
     environment:
-      APP_HOST: sl1ng-qbittorrentwg_app_1
+      APP_HOST: sl1ng-qbittorrent_app_1
       APP_PORT: 8880
 
   app:
