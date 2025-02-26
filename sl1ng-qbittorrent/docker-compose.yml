@@ -14,8 +14,8 @@ services:
       - UMASK=002
       - TZ=Europe/Athens
       - WEBUI_PORTS=8880/tcp,8880/udp
-      - VPN_ENABLED=false #
-      - VPN_CONF=wg0 # READ THIS
+      - VPN_ENABLED=true #
+      - VPN_CONF=wg0 # Place wg0.conf in ~/umbrel/app-data/data/config/wireguard/ - Dir gets created once you launch the app(it won't load because VPN_ENABLED=true and there's no wg0.conf).
       - VPN_PROVIDER=generic #
       - VPN_LAN_NETWORK=192.168.1.0/24 #
       - VPN_LAN_LEAK_ENABLED=true
