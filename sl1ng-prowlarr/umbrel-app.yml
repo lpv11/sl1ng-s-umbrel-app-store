@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: sl1ng-prowlarr
 name: prowlarrWG
-tagline: prowlarr with Wireguard by hotio
+tagline: hotio's prowlarr image
 icon: https://cdn.imgchest.com/files/y2pckarmeb7.png
 category: Development
 version: "qBit version:5.0.4"
