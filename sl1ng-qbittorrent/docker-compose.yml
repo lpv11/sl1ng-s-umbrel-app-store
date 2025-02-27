@@ -3,7 +3,7 @@ version: '3.7'
 services:
   app_proxy:
     environment:
-      APP_HOST: sl1ng-qbittorrent_app_1
+      APP_HOST: sl1ng-qbittorrent
       APP_PORT: 8880
 
   app:
@@ -38,4 +38,4 @@ services:
     devices:
       - /dev/net/tun:/dev/net/tun # OPTIONAL, READ THIS
     restart: on-failure
-    network: "container: gluetun"
+    network: "container:sl1ng-gluetun"
