@@ -7,13 +7,13 @@ category: Development
 version: "qBit version:5.0.4"
 port: 9696
 description: >-
-  Hotio's qBittorrent/Wireguard bundle.
+  Hotio's prowlarr image with VPN integration. VPN is disabled by default.
 developer: hotio
 website: hotio.dev
 submitter: lpv11
 submission: https://github.com/lpv11/sl1ng-s-umbrel-app-store
 repo: https://github.com/lpv11/sl1ng-s-umbrel-app-store
-support: https://github.com/lpv11/sl1ng-s-umbrel-app-store/tree/master/issues
+support: https://hotio.dev/discord
 gallery:
 
 releaseNotes: >-
