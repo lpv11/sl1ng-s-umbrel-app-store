@@ -20,11 +20,11 @@ services:
       - VPN_SERVICE_PROVIDER=gluetun
       - VPN_TYPE=wireguard
       # OpenVPN:
-      - OPENVPN_USER=
-      - OPENVPN_PASSWORD=
-        Wireguard:
-        - WIREGUARD_PRIVATE_KEY=wOEI9rqqbDwnN8/Bpp22sVz48T71vJ4fYmFWujulwUU=
-        - WIREGUARD_ADDRESSES=10.64.222.21/32
+      # - OPENVPN_USER=
+      # - OPENVPN_PASSWORD=
+      # Wireguard:
+      - WIREGUARD_PRIVATE_KEY=wOEI9rqqbDwnN8/Bpp22sVz48T71vJ4fYmFWujulwUU=
+      - WIREGUARD_ADDRESSES=10.64.222.21/32
       # Timezone for accurate log times
       - TZ=Europe/Athens
       # Server list updater
