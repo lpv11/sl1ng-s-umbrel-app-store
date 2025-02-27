@@ -7,7 +7,7 @@ category: Development
 version: "Unknown"
 port: 8880
 description: >-
-  Hotio's qBittorrent image with VPN integration. VPN is disabled by default.
+  "Hotio's qbittorrent image with VPN integration meant to install alongside gluetun. This image's VPN is disabled by default."
 developer: hotio
 website: hotio.dev
 submitter: lpv11
