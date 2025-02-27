@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: sl1ng-gluetun
+name: gluetun
+tagline: Lightweight swiss-army-knife-like VPN client to multiple VPN service providers
+icon: https://raw.githubusercontent.com/qdm12/gluetun/master/doc/logo_256.png
+category: Development
+version: "Unknown"
+port: 8880
+description: >-
+  
+developer: hotio
+website: https://github.com/qdm12/gluetun
+submitter: lpv11
+submission: https://github.com/lpv11/sl1ng-s-umbrel-app-store
+repo: https://github.com/lpv11/sl1ng-s-umbrel-app-store
+support: hhttps://github.com/qdm12/gluetun/issues
+gallery:
+    -
+    -
+    -
+releaseNotes: >-
+  Glorious release.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
