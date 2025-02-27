@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   qbittorrent:
-    container_name: sl1ng-qbittorrent
+    container_name: qbittorrent
     image: ghcr.io/hotio/qbittorrent:release-5.0.4@sha256:d97080a8a978d7705297dc44bcd6c599b3b47631fec8dcfc0cb7039279d05b02
     environment:
       - PUID=1000
@@ -34,4 +34,4 @@ services:
     devices:
       - /dev/net/tun:/dev/net/tun # OPTIONAL, READ THIS
     restart: on-failure
-    network: "container:sl1ng-gluetun"
+    network: "container:gluetun"
