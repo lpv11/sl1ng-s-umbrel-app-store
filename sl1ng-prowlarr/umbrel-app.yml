@@ -7,7 +7,7 @@ category: Development
 version: "Unknown version"
 port: 9696
 description: >-
-  Hotio's prowlarr image with VPN integration. VPN is disabled by default.
+  "Hotio's prowlarr image with VPN integration meant to install alongside gluetun. This image's VPN is disabled by default."
 developer: hotio
 website: hotio.dev
 submitter: lpv11
