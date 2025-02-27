@@ -7,13 +7,13 @@ category: Development
 version: "Unknown"
 port: 8880
 description: >-
-  Hotio's qBittorrent/Wireguard bundle.
+  Hotio's qBittorrent image with VPN integration.
 developer: hotio
 website: hotio.dev
 submitter: lpv11
 submission: https://github.com/lpv11/sl1ng-s-umbrel-app-store
 repo: https://github.com/lpv11/sl1ng-s-umbrel-app-store
-support: https://github.com/lpv11/sl1ng-s-umbrel-app-store
+support: https://hotio.dev/discord
 gallery:
   - https://www.qbittorrent.org/img/screenshots/linux/1.webp
   - https://www.qbittorrent.org/img/screenshots/linux/2.webp
