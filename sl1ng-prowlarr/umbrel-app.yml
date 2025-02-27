@@ -4,7 +4,7 @@ name: prowlarrWG
 tagline: hotio's prowlarr image
 icon: https://cdn.imgchest.com/files/y2pckarmeb7.png
 category: Development
-version: "qBit version:5.0.4"
+version: "Unknown version"
 port: 9696
 description: >-
   Hotio's prowlarr image with VPN integration. VPN is disabled by default.
