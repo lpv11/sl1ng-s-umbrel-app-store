@@ -1,6 +1,6 @@
 services:
   prowlarr:
-    container_name: prowlarrwg
+    container_name: prowlarrhotio
     image: ghcr.io/hotio/prowlarr
     environment:
       - PUID=1000
