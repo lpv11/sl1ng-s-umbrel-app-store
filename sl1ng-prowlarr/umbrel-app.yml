@@ -15,7 +15,9 @@ submission: https://github.com/lpv11/sl1ng-s-umbrel-app-store
 repo: https://github.com/lpv11/sl1ng-s-umbrel-app-store
 support: https://hotio.dev/discord
 gallery:
-
+  - https://getumbrel.github.io/umbrel-apps-gallery/prowlarr/1.jpg
+  - https://getumbrel.github.io/umbrel-apps-gallery/prowlarr/2.jpg
+  - https://getumbrel.github.io/umbrel-apps-gallery/prowlarr/3.jpg
 releaseNotes: >-
   Glorious release.
 dependencies: []
