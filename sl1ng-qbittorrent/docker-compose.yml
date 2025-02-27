@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   qbittorrent:
-    container_name: qbittorrent
+    container_name: qbittorrentwg
     image: ghcr.io/hotio/qbittorrent:release-5.0.4@sha256:d97080a8a978d7705297dc44bcd6c599b3b47631fec8dcfc0cb7039279d05b02
     environment:
       - PUID=1000
