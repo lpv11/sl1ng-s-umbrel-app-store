@@ -5,7 +5,6 @@ tagline: Lightweight swiss-army-knife-like VPN client to multiple VPN service pr
 icon: https://raw.githubusercontent.com/qdm12/gluetun/master/doc/logo_256.png
 category: Development
 version: "Unknown"
-port: 8880
 description: >-
   
 developer: hotio
