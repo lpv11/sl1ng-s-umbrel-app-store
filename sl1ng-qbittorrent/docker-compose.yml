@@ -34,4 +34,4 @@ services:
     devices:
       - /dev/net/tun:/dev/net/tun # OPTIONAL, READ THIS
     restart: on-failure
-    network: "container:gluetun"
+#    network: "container:gluetun"
