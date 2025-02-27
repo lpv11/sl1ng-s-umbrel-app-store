@@ -7,7 +7,7 @@ category: Development
 version: "Unknown version"
 port: 9696
 description: >-
-  Hotio's prowlarr image with VPN integration meant to install alongside gluetun. This image's VPN is disabled by default. "network_mode: container:gluetun" add the end of the compose file to use with gluetun.
+  Hotio's prowlarr image with VPN integration meant to install alongside gluetun. This image's VPN is disabled by default. Add this at the end of the compose file to use with gluetun: "network_mode: container:gluetun"
 developer: hotio
 website: hotio.dev
 submitter: lpv11
