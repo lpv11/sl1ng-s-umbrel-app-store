@@ -17,7 +17,7 @@ services:
       - /home/umbrel/umbrel/app-data/sl1ng-gluetun:/gluetun
     environment:
       # See https://github.com/qdm12/gluetun-wiki/tree/main/setup#setup
-      - VPN_SERVICE_PROVIDER=gluetun
+      - VPN_SERVICE_PROVIDER=mullvad
       - VPN_TYPE=wireguard
       # OpenVPN:
       # - OPENVPN_USER=
