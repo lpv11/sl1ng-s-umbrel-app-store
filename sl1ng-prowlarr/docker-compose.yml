@@ -2,7 +2,7 @@ services:
   prowlarr:
     container_name: prowlarrhotio
     image: ghcr.io/hotio/prowlarr
-#    ports:   #UNCOMMENT IF NOT USING WITH GLUETUN
+#    ports:   # UNCOMMENT IF NOT USING WITH GLUETUN
 #      - "9696:9696"
     environment:
       - PUID=1000
